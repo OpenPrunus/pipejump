@@ -1,0 +1,6 @@
+services:
+  pipejump:
+    build: .
+    ports:
+      - "8102:80"
+    restart: unless-stopped
